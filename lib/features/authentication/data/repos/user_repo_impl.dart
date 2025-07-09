@@ -4,7 +4,6 @@ import 'package:e_commerce_ui/features/authentication/data/data_sources/auth_rem
 import 'package:e_commerce_ui/features/authentication/data/data_sources/auth_local_data_source.dart';
 import 'package:e_commerce_ui/features/authentication/domain/entities/user_entity.dart';
 import 'package:e_commerce_ui/features/authentication/domain/repos/auth_repo.dart';
-import 'package:flutter/material.dart';
 
 class AuthRepositoryImpl implements AuthRepository {
   final AuthRemoteDataSource remoteDataSource;
